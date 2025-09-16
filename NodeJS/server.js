@@ -2,7 +2,9 @@ import express from 'express';
 
 import cors from "cors";
 
-//import { routes } from './Routes/books.routes.js';
+import { routes } from './Routes/video.route.js';
+
+
 
 import mongoose  from 'mongoose';
 
@@ -33,5 +35,5 @@ db.on("error",(err)=>{
 })
 
 
-//routes(app);
+routes(app);
 

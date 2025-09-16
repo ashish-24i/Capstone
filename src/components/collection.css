@@ -1,0 +1,25 @@
+.listItem{
+    margin-top: 80px;
+    display: flex; 
+    flex-wrap: wrap;
+    gap:50px;
+    margin-left: 200px;
+
+    
+
+    
+}
+
+.frame{
+
+    border: 1px solid grey;
+    border-radius: 100px;
+}
+
+
+/*.box{
+    border:1px solid grey;
+    border-radius: 30px;
+    height: 400px;
+    
+}*/
